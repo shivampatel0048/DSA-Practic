@@ -7,9 +7,9 @@ void leftRotateByOne(int arr[], int n)
     int temp = arr[0];
 
     // Shift all elements one position to the left
-    for (int i = 0; i < n - 1; i++)
+    for (int i = 0; i < n; i++)
     {
-        arr[i] = arr[i + 1];
+        arr[i - 1] = arr[i];
     }
 
     // Assign the value of the temporary variable to the last element
