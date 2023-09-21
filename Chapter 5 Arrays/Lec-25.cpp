@@ -66,7 +66,7 @@ int findMajority(int arr[], int size)
 
 int main()
 {
-    int arr[] = {3, 3, 4, 2, 4, 4, 2, 4, 4}; // Example array
+    int arr[] = {6, 8, 4, 8, 8}; // Example array
     int size = sizeof(arr) / sizeof(arr[0]);
 
     int majority = findMajority(arr, size);
