@@ -1,25 +1,28 @@
 #include <iostream>
 using namespace std;
 
-void TOH(int n, char source, char auxiliary, char destination)
+void towerOfHanoi(int n, char source, char auxiliary, char destination, int &step)
 {
     if (n == 1)
     {
-        cout << "Move 1 from " << source << " to " << destination << endl;
+        cout << "Step " << ++step << ": Move disk 1 from " << source << " to " << destination << endl;
         return;
     }
-    TOH(n - 1, source, destination, auxiliary);
-    cout << "Move " << n << " from " << source << " to " << destination << endl;
-    TOH(n - 1, auxiliary, source, destination);
+    towerOfHanoi(n - 1, source, destination, auxiliary, step);
+    cout << "Step " << ++step << ": Move disk " << n << " from " << source << " to " << destination << endl;
+    towerOfHanoi(n - 1, auxiliary, source, destination, step);
 }
 
 int main()
 {
     int n;
+    int step = 0;
+
     cout << "Enter the number of disks: ";
     cin >> n;
 
-    TOH(n, 'A', 'B', 'C');
+    towerOfHanoi(n, 'A', 'B', 'C', step);
+    cout << "Total number of steps: " << step << endl;
 
     return 0;
 }
