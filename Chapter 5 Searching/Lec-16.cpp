@@ -45,3 +45,30 @@ int main()
 
     return 0;
 }
+
+
+// Explaination :-
+// let's go through the code step by step:
+
+// 1. The `findRepeating` function takes an integer array `arr[]` and its size `n` as parameters. It uses Floyd's Tortoise and Hare algorithm, also known as the cycle detection algorithm, to find the repeating element in the array efficiently.
+
+// 2. Inside `findRepeating`:
+//    - Two pointers, `slow` and `fast`, are initialized to the first element of the array `arr`.
+//    - Using a do-while loop, the function moves `slow` one step forward and `fast` two steps forward in each iteration until they meet at a common point. This loop detects the point where the two pointers meet within a cycle in the array.
+//    - Once the loop breaks, it indicates that the two pointers have met at a common point within the cycle.
+
+// 3. After detecting the meeting point of the two pointers, the function resets the `slow` pointer to the first element of the array and moves both `slow` and `fast` pointers one step forward in each iteration until they meet again. This loop identifies the starting point of the cycle, which is the repeating element in the array.
+
+// 4. The function returns the value of the repeating element found.
+
+// 5. In the `main` function:
+//    - An integer array `arr[]` is defined with some elements, including a repeating element.
+//    - The size of the array `arr[]` is calculated using `sizeof(arr) / sizeof(arr[0])` and stored in `n`.
+//    - The `findRepeating` function is called with the array `arr[]` and its size `n`.
+//    - The repeating element returned by the `findRepeating` function is stored in the variable `repeatingElement`.
+//    - Finally, the repeating element is printed out.
+
+// 6. The output of the program confirms the repeating element found in the array.
+
+// This algorithm efficiently finds the repeating element in an array with a time complexity of O(n) and a space complexity of O(1).
+

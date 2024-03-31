@@ -9,7 +9,7 @@ int main() {
     vector<int> numbers;
 
     // Add elements to the vector using push_back
-    numbers.push_back(10);
+    numbers.push_bZack(10);
     numbers.push_back(20);
     numbers.push_back(30);
     numbers.push_back(40);
