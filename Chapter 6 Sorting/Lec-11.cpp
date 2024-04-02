@@ -68,7 +68,6 @@ int main()
         cout << a[i] << " ";
     }
     cout << endl;
-
     mergeSort(a, 0, n - 1);
 
     cout << "Array after sorting: ";

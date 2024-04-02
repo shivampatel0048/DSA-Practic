@@ -25,6 +25,7 @@ void merge(int a[], int b[], int m, int n)
     }
 }
 
+
 int main()
 {
     int a[] = {1, 3, 5, 7};
