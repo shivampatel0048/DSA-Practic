@@ -2,8 +2,7 @@
 #include <vector> // Include the vector header
 using namespace std;
 
-        // Vector Reference - https://cplusplus.com/reference/vector/vector/
-
+// Vector Reference - https://cplusplus.com/reference/vector/vector/
 int main() {
     // Create an empty vector of integers
     vector<int> numbers;
