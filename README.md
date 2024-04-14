@@ -58,10 +58,4 @@ Contributions are welcome! If you'd like to contribute new problems, improve exi
 4. Push your changes to your fork: `git push origin feature/your-feature-name`.
 5. Create a pull request explaining your changes.
 
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](/LICENSE) file for details.
-
-Happy coding and happy learning!
-
 ---
