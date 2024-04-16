@@ -57,5 +57,3 @@ Contributions are welcome! If you'd like to contribute new problems, improve exi
 3. Make your changes and commit them with a clear message.
 4. Push your changes to your fork: `git push origin feature/your-feature-name`.
 5. Create a pull request explaining your changes.
-
----
