@@ -34,7 +34,7 @@ Here are some of the DSA topics covered in this repository:
 - [Bit Manipulation](/bit-manipulation)
 - [Recursion](/recursion)
 - [Backtracking](/backtracking)
-- [And more...
+- [Learning.....
 
 Each topic directory contains problem solutions, explanations, and sample code to help you grasp the concepts and improve your coding skills.
 
